@@ -42,7 +42,7 @@ public class MenuHandler {
                 convertirMoneda("USD", "EUR", conversion, lectura);
                 break;
             case 7:
-                elegirOtrasMonedas(conversion, lectura); // Llama al método para elegir otras monedas a convertir
+                elegirOtrasMonedas(conversion, lectura);
                 break;
             case 8:
                 System.out.println("¡Gracias, hasta la proxima!");
