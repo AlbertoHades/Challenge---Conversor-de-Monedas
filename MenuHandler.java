@@ -53,7 +53,7 @@ public class MenuHandler {
         }
     }
 
-    // Método privado para realizar la conversión de moneda
+    // Método de conversión de moneda
     private static void convertirMoneda(String monedaBase, String monedaDestino, Conversion c, Scanner lectura) {
         System.out.println("Ingrese el monto a convertir:");
         double monto = lectura.nextDouble();
@@ -80,14 +80,14 @@ public class MenuHandler {
 
             String monedaBase = lectura.next().toUpperCase(); // Código de moneda base ingresado por el usuario, LETRAS NO NUMEROS
             System.out.println("Ingrese el código de moneda destino: (I.E. MXN)");
-            String monedaDestino = lectura.next().toUpperCase(); // Lee el código de moneda destino ingresado por el usuario
-            convertirMoneda(monedaBase, monedaDestino, conversion, lectura); // Realiza la conversión
+            String monedaDestino = lectura.next().toUpperCase(); //Código de moneda destino ingresado por el usuario
+            convertirMoneda(monedaBase, monedaDestino, conversion, lectura); 
         } catch (Exception e) {
             System.out.println("Error: Ingrese un código de moneda válido.");
         }
     }
 
-    // Método privado para mostrar el resultado de la conversión
+    
     private static void mostrarResultado(RegistroConversion registro, String monedaBase, String monedaDestino) {
         if (registro != null) {
             Conversion conversion = registro.getConversion();
@@ -96,7 +96,7 @@ public class MenuHandler {
                 double resultado = conversion.getResultado();
                 double conversionRate = conversion.getConversionRate();
 
-                // Redondear los valores para mostrar solo dos decimales
+                // Redondeo a dos decimales despues del punto.
                 monto = Math.round(monto * 10000.0) / 10000.0;
                 resultado = Math.round(resultado * 10000.0) / 10000.0;
                 conversionRate = Math.round(conversionRate * 10000.0) / 10000.0;
@@ -112,10 +112,10 @@ public class MenuHandler {
                 System.out.println("************************************************************");
 
             } else {
-                System.out.println("Ha ocurrido un error al obtener la conversión.");
+                System.out.println("Ocurrio un error al obtener la conversión.");
             }
         } else {
-            System.out.println("Ha ocurrido un error al convertir la moneda.");
+            System.out.println("Ocurrio un error al convertir la moneda.");
         }
     }
 }
