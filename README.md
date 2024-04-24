@@ -11,7 +11,7 @@
 Desafío de la Especialización **Back-End G6 Alura - Oracle Next Education.** Consiste en desarrollar un Convertidor de Monedas en lenguaje Java, donde se realizarán solicitudes a una API de tasas de cambio para manipular datos JSON. Es necesario seleccionar y presentar las monedas relevantes para llevar a cabo el intercambio de divisas entre diferentes países.
 
 Se uso Trello como herramienta para manejar el proyecto
-> https://trello.com/b/RU41cvaQ/conversor-de-moneda-challenge-one-java-back-end
+ > **[Trello](https://trello.com/b/RU41cvaQ/conversor-de-moneda-challenge-one-java-back-end)**
    
 
 
