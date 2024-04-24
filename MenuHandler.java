@@ -69,10 +69,10 @@ public class MenuHandler {
             Top 10 de monedas más importantes de America Latina:
         
              1.  COP: Colombia                  6.  BZD: Belize
-             2.  KYD: Cayman Islands            7.  ARS: Argentina 
+             2.  BOB: Bolivia                   7.  ARS: Argentina 
              3.  CAD: Canada                    8.  UYU: Uruguay  
              4.  GTQ: Guatemala                 9.  CLP: Chile
-             5.  PEN: Peru                      10. PYG: Parguay 
+             5.  PEN: Peru                      10. PYG: Paraguay 
             
             Para monedas no enlistadas utilizar el codigo a 3 letras de la moneda deseada.
                               
