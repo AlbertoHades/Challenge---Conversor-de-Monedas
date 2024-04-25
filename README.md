@@ -57,13 +57,27 @@ Seguir los siguientes pasos para la ejecucion del programa:
 Se desplegara un menu con opciones para interactuar con las opciones de conversion, Elige la opción deseada y sigue las instruciones en la pantalla. El resultado se mostrará en la pantalla y creara un archivo adiccional con el registro de las conversiones realizadas.
 
 
+<img src="https://raw.githubusercontent.com/AlbertoHades/Challenge---Conversor-de-Monedas/main/Additional%20material/MenuScreenShot.png" width="500" heigth= "500">
+
+<img src= "https://raw.githubusercontent.com/AlbertoHades/Challenge---Conversor-de-Monedas/main/Additional%20material/Submenu%20SS.png" width="500" height="500">
+
+creara un archivo adiccional con el registro de las conversiones realizadas.
+<img src= "https://raw.githubusercontent.com/AlbertoHades/Challenge---Conversor-de-Monedas/main/Additional%20material/image.png" width="500" height="500">
+
+Esta Aplicacion soporta el listado completo de las divisas que pueden ser convertidas a travez de [Exchange rate API](https://www.exchangerate-api.com/docs/supported-currencies)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Contribuciones / Contributions ###
 
+
+
 ### Licencias / License ###
 Este repositorio se subio con licencia publica.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Contacto/ Contacto ###
+### Contacto / Contacto ###
+
 Alberto Ruiz
 eng.albertoruiz.fs@gmail.com
 
@@ -78,6 +92,7 @@ A Othneil por hacer un template de readme simple y facil de usar
 
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [![Static Badge](https://img.shields.io/badge/Git-Github-blue?style=flat&logo=GitHub)](https://github.com/)
-[![Static Badge](https://img.shields.io/badge/status-under%20construction-orange)](#)
+[![Static Badge](https://img.shields.io/badge/status-completed-Green)](#)
